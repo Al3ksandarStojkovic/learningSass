@@ -1,3 +1,12 @@
+$default-text-color : $black;
+$default-bg-color : $light-gray;
+$default-weight : $font-regular;
+$default-font: $rubik;
+
+$headings-font : $josefin;
+$headings-weight : $font-bold;
+
+
 img{
     max-width: 100%;
 }
@@ -17,4 +26,15 @@ html{
     margin: 0 auto;
     width: 95%;
     max-width: 1200px;
+}
+body{
+    font-size: 1.6rem;
+    font-family: $default-font;
+    font-weight: $default-weight;
+    color: $default-text-color;
+    background-color: $default-bg-color;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: $headings-font;
+    font-weight: $headings-weight;
 }

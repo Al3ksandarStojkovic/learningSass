@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lato:wght@400;700&family=Rubik:wght@400;700&display=swap");
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -362,8 +363,31 @@ html {
   max-width: 1200px;
 }
 
+body {
+  font-size: 1.6rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  background-color: #eeeeee;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+}
+
 header {
   padding: 20px 0;
+  background-color: #8a059e;
+}
+
+header a {
+  color: #ffffff;
+}
+
+.about-section {
+  padding: 30px 0;
+  background-color: #ffffff;
 }
 
 /*
@@ -374,14 +398,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit thi
     Created on : 04.09.2023., 15.51.14
     Author     : X
 */
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
-*/
-/*
-    Created on : 04.09.2023., 15.51.28
-    Author     : X
-*/
+.comment-section {
+  padding: 30px 0;
+  background-color: #ffffff;
+}
+
 /*
 Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
 Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
@@ -398,5 +419,14 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit thi
     Created on : 04.09.2023., 15.52.04
     Author     : X
 */
+footer {
+  padding: 30px 0;
+  background-color: #8a059e;
+}
+
+footer a,
+footer p {
+  color: #ffffff;
+}
 
 /*# sourceMappingURL=theme.css.map */
