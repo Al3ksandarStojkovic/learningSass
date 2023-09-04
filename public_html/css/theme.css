@@ -470,17 +470,15 @@ footer {
 footer nav ul {
   padding-left: 0;
   margin-bottom: 50px;
-}
-
-footer nav ul li {
   list-style: none;
-  padding: 5px;
 }
 
 footer nav ul li a {
   display: block;
+  padding: 5px 0;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 700;
+  font-size: 1.8rem;
   color: #ffffff;
   text-align: center;
 }
@@ -498,6 +496,7 @@ footer .copyright {
   footer .container nav ul {
     display: flex;
     justify-content: center;
+    align-items: center;
   }
   footer .container nav ul li {
     padding: 5px 15px;
